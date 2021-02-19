@@ -1,0 +1,55 @@
+java ---> class
+artifacts---->
+             jar - java archier
+             war - web archier
+             ear - enterprise archier
+maven installing command:-
+goto root,
+execute following command:- yum install java-1.8.0-openjdk-devel
+wget {web link} ---> it will download the files from internet
+tar -zxvf {file name} -----> to extract [.tar.gz] files we need to use this command
+where is java ;- which java
+yum install maven ----> 3.0.5(old version)
+to remove maven ::::: yum remove maven
+wget https://downloads.apache.org/maven/maven-3/3.6.3/binaries/apache-maven-3.6.3-bin.tar.gz
+tar -zxvf filename
+cd to apache3.6
+cd to bin
+to install downloaded files
+export M3_HOME=/home/vagrant/apache-maven-3.6.3
+echo $PATH
+export PATH=$PATH:$M3_HOME/bin
+echo $PATH
+vi .bash_profile
+add following text under fi
+export M3_HOME=/home/vagrant/apache-maven-3.6.3
+after bin add 
+cd my-app
+you will see pom.xml
+execute mvn compile(java file crated) command
+cd target
+
+mvn test(target folder created)
+mvn package(.jar file created)
+mvn clean install
+/home/vagrant/my-app/target/my-app-1.0-SNAPSHOT.jar to /home/vagrant/.m2/repository/com/mycompany/app/my-app/1.0-SNAPSHOT/my-app-1.0-SNAPSHOT.jar
+.m2 is repository folder
+mvn site
+group id
+artifact id
+version
+validate,compile,
+
+
+
+mvn test -f my-app/pom.xml
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+pom.xml maven
+build.xml ANT
+build.gradle GRADLE
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+
+
+

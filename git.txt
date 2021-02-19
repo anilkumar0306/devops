@@ -1,0 +1,61 @@
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+git add file name ---->its add  to staged
+git commit filename --->its comitted
+git status
+git log
+tree .git
+cf4ffab1d3cc3d0f103266513382e6c47159bdae
+git is a persistant tool----> key and object
+git is content tracking tool----> its only tracks the content
+git is revision control system-->>master always follws latest commit{branch movable or refers  to latest commit }
+objects in git 
+:-commit
+  tree 
+  blob
+  tags
+---->>> untracked,staged,comitted
+master--> before commit --> cf4ffab1d3cc3d0f103266513382e6c47159bdae
+  |
+master-->after commit--> d5635c1725b9062b403a3fa9faac669bdfecbed0
+git add.--> command to all files to add git at once
+git branch branchname --> command to add abranch
+HEAD REFERS CURRENT BRANCH{MASTER BRANCH}
+Apple Pie
+pastry
+butter
+flour
+sugar
+git checkout commitid{head}
+merge vs rebase
+merge have two parents
+merge create commit
+ rebase wont doboth
+git remote -v - listing remote repo
+git remote rm origin- to remove origin
+git remote add origin {url copyid from git}
+git push -u origin {branch name}
+ssh-keygen- to create public and private key
+/home/vagrant/.ssh is where private and public keys stored
+git clone {copyid public url from git}
+git branch all--> to get all branches
+git show-ref master---->to check local baranch and remote branch head to
+git fetch----> only fetch the changes didnt merge into master and placed in origin/master {we have to merge them by using git merge origin/master}
+git pull = fetch + merge
+git fetch -u origin master----> to fetch from remote repo
+git pull -u origin master -----> to pull from remote repo
+git hub--->
+fork --> cloning remote to remote
+git show HEAD---> git shows  where the head pointed 
+in real time we have to ask "what kind of strategy you were using?"---->after joining
+git reset --hard {commit id}-----> you can delete old comitts
+git reset --mixed {commitid}---->it came to modified state using checkout command
+git reset --soft {commit id}--->it came to commit stage ..use revert+checkout to delete commit
+git revert {commit id} --to revert to the previous commits
+git checkout -b branchname
+
+git new commands ::::::
+master:::::main
+checkout::::switch
+PENDING -----> WEB HOOKS

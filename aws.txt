@@ -1,0 +1,55 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+after launching
+choose create a new key pair(1st)
+ohio region
+click on download
+click on launch instances
+bottom right corner view instances
+select instans
+click on connect
+you will get 3 ways to connect
+public ipv4
+copy public ip
+come back to git bash
+got to downloads, open git bash in ohio.pem file,
+ssh -i ohio.pem file-----> execute this command
+ssh -i ohio.pem ec2-user@3.129.216.128{which we get on aws publi ip4} to connect to the instance
+chmod 400 permision to pem file
+goto security group
+left side click on checkbox
+edit inbound rules
+add the rule click on ssh
+port number 22
+0.0.0.0/0
+click on save rules
+click on instances once again make sure you have security group activated on bottom
+goto git bash now you on ec2 server aws
+
+
+whenever you get into ec2 instance give these commands
+1.sudo su command:-
+2.yum update -y
+3.yum install wget
+4.yum install tree
+5.yum install java-1.8.0-openjdk-devel
+java -version to check
+6.wget https://get.jenkins.io/war-stable/2.263.4/jenkins.war
+7.java -jar jenkins.war
+
+

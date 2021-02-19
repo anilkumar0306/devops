@@ -1,0 +1,11 @@
+wget https://get.jenkins.io/war-stable/2.263.4/jenkins.war
+java -jar jenkins.war
+ba3375723a7f4e5ea7108fc1cec86125
+ip addr
+ps ef |grep jenkins
+curl -Iv http:localhost:8080
+pkg.jenkins.io/redhat
+sudo service jenkins start
+sudo chkconfig jenkins on:::: automatically starts
+
+

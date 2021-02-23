@@ -16,6 +16,16 @@ apple123
 cd /var/lib/jenkins
 systemctl status jenkins.service
 systemctl enable jenkins.service
+anil_kumar
+apple123
+scripted pipe line
+declarative pipe line
 
+
+gartner.com site
+mvn clean package 
+::::::::::::::::::::::::::::::::::
+whyd do we have nodes?agents interview quetion
+::::::::::::::::::::::::::::::
 
 

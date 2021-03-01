@@ -1,0 +1,39 @@
+for vagrant:- pre requisites
+3gb ram
+java 8
+sonar 6.7.7
+creat new user sonar
+
+useradd sonar
+passwd sonar
+su - sonar
+
+
+wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-6.7.7.zip
+unzip sonarqube-6.7.7.zip
+cd sonarqube-6.7.7/bin/linux.64/
+./sonar.sh start
+localhost:8080
+
+.
+
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+for ec2 :-
+new
+java 11
+sonar 7.9.5
+
+create new instance
+new security inbound rules, 9000 port configuration
+creat new user sonar
+useradd sonar
+passwd sonar
+su - sonar
+
+
+wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-6.7.7.zip
+unzip sonarqube-6.7.7.zip
+cd sonarqube-6.7.7/bin/linux.64/
+./sonar.sh start
+localhost:8080 

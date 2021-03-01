@@ -51,5 +51,24 @@ whenever you get into ec2 instance give these commands
 java -version to check
 6.wget https://get.jenkins.io/war-stable/2.263.4/jenkins.war
 7.java -jar jenkins.war
+SES
+smtp setings
+smtp port number: 25
+tcp port and udp port difference?
+ssl port 465 security socket layer
+tls transport layer security port 587
+
+iam user name
+ses-smtp-user.20210224-120303
+
+
+SMTP Username:
+AKIA4L5ZFP27KW5KUZMD
+SMTP Password:
+BMGF2BaDAyaWJ9+8YF6qjp5geUo/JIQeSV6Gk4UJOa/H
+
+
+ses email addresses
+
 
 
